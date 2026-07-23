@@ -1,1 +1,5 @@
-bmFtZSA9ICI0Z2FtZXMiCmNvbXBhdGliaWxpdHlfZGF0ZSA9ICIyMDI2LTA3LTIzIgoKW2Fzc2V0c10KZGlyZWN0b3J5ID0gIi4vZGlzdCIK
+name = "4games"
+compatibility_date = "2026-07-23"
+
+[assets]
+directory = "./dist"
