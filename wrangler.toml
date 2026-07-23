@@ -1,6 +1,1 @@
-[build]
-command = "pnpm install && pnpm run build"
-publish = "dist"
-
-[build.environment]
-NODE_VERSION = "22"
+bmFtZSA9ICI0Z2FtZXMiCmNvbXBhdGliaWxpdHlfZGF0ZSA9ICIyMDI2LTA3LTIzIgoKW2Fzc2V0c10KZGlyZWN0b3J5ID0gIi4vZGlzdCIK
