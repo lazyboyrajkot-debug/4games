@@ -1,5 +1,5 @@
 // API client for games backend
-const BASE_URL = (typeof import.meta !== "undefined" && (import.meta as { env?: { VITE_API_URL?: string } }).env?.VITE_API_URL) ?? "";
+const BASE_URL: string = import.meta.env.VITE_API_URL ?? "";
 
 async function apiFetch(path: string, options: RequestInit = {}) {
   const token = localStorage.getItem("auth_token") ?? "";
